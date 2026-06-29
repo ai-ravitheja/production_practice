@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import r2_score
+from sklearn.metrics import r2_score #adding dummy comments
 
 import joblib
 df = pd.read_csv(r"C:\Users\guest user\Documents\AI Engineer\MachineLearning\sklearn\Housing.csv")
